@@ -1,0 +1,46 @@
+.loadingContainer{
+  background: #fff;
+  position: relative;
+  margin: auto;
+  width: 20.3125rem;
+  height: 14.5rem;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+
+
+  p{
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  div{
+    width: 40%;
+    height: 10px;
+    span{
+      width: 40%;
+      height: 5px;
+      background: #802A76;
+      animation: Loading 1.5s infinite;
+      display: inline-block;
+    }
+  }
+  
+
+  @keyframes Loading {
+    0% {width: 0%;}
+    100% {width: 100%}
+  }
+}
+
+.smallLoadingContainer {
+  width: 17.75rem;
+  height: 5rem;
+  margin-top: 0rem;
+  border-radius: 0;
+}

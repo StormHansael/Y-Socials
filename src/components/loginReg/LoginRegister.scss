@@ -1,0 +1,177 @@
+
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  top: 5vh;
+  position: relative;
+
+  .whiteBox {
+    height: fit-content;
+   div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 0.4rem ;
+   }
+    p{
+      font-weight: 500;
+      font-family: "Helvetica Neue";
+      font-size: 2rem;
+      width: 17.375rem;
+      span:nth-child(1){
+        color: #802A76;
+        font-weight: 700;
+        font-size: 2.5rem;
+      }
+      span:nth-child(2), span:nth-child(3){
+        font-weight: 700;
+        color: #802A76;
+      }
+    }
+  }
+}
+
+.blackLine {
+
+  margin: auto;
+  width: 17.3rem;
+  height: 1px;
+  background: #000;
+}
+
+.registrerFormContainer{
+  display: flex;
+  justify-content: center;
+
+  height: fit-content;
+}
+
+.registrerFormContainer  {
+  
+  margin: auto;
+  padding: 0px 20px 20px 20px;
+ 
+ 
+
+
+  form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-right: 1.5rem;
+  }
+
+  label {
+    display: flex;
+   
+    width: 100%;
+    color: #2F2F2F;
+    font-family: "Helvetica Neue";
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0.4rem 0 0.2rem 0.4rem;
+  }
+
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  button {
+    
+    background-color: #802A76;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Helvetica Neue";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 2rem;
+
+  }
+  #blackButton {
+    background-color: #1C0C12 !important;
+  }
+
+ 
+
+  
+
+  img{
+    width: 107%;
+  }
+
+  
+}
+
+.buttonSeperator{
+  display: flex !important;
+  flex-direction: column !important;
+  // justify-content: space-around !important;
+  flex-wrap: nowrap;
+  // height: 40vh;
+  width: 107%;
+
+  button:hover {
+    opacity: 0.8;
+  }
+}
+
+.goToRegistrerContainer{
+  // display: inline-block !important;
+  justify-content: center !important;
+  flex-direction: column !important ;
+  margin: auto;
+  p{
+    text-align: center;
+    width: 100% !important;
+  }
+  .highlitghtText {
+    color: #802A76;
+    font-weight: 700 !important ;
+  }
+
+  svg {
+    margin: auto;
+  }
+
+  button {
+ 
+    background-color: #802A76;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
+    width: 60%;
+    
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Helvetica Neue";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 2rem;
+   
+
+  }
+
+  
+}

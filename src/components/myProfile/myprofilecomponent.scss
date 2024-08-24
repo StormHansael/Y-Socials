@@ -1,0 +1,130 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.profilePurpleBar {
+  width: 0.875rem;
+  height: 20.3125rem;
+}
+
+.backgroundBanner {
+  overflow: hidden;
+  width: 20.3505rem;
+  height: 4.5rem;
+  background: url("../../Assests/Imgs/bannerTest.png")  -7.663px -19.977px / 102.171% 179.883% no-repeat;
+}
+
+.mainRowContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  // justify-content: space-between;
+  top: -0.7rem;
+  position: relative;
+}
+
+.myProfilePic {
+  width: 4.375rem;
+  height: 4.375rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  top: -0.5rem;
+  position: relative;
+  margin-left: 0.4rem;
+
+}
+
+.profileTextContainer{
+  position: relative;
+  top: 0.7rem;
+  width: 60%;
+  height: fit-content;
+  margin-left: 0.2rem;
+  h3{
+    color: #000;
+    font-family: "Helvetica Neue";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  h4{
+    color: #000;
+    font-family: "Helvetica Neue";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+  }
+  p{
+    color: #000;
+    font-family: "Helvetica Neue";
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  span{
+    font-weight: 900;
+  }
+}
+
+.editContainer {
+  width: 4.6875rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  background: #1C0C12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.4rem;
+
+  p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    width: fit-content;
+  }
+
+  svg {
+    // width: 0.625rem;
+    // height: 0.625rem;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    padding-bottom: 0.1rem;
+  }
+
+}
+
+.aboutText {
+  margin: 0;
+  position: relative;
+  top: -0.2rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  
+  p {
+    width: 18rem;
+    color: #000;
+    font-family: "Helvetica Neue";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+

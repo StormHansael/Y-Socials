@@ -1,0 +1,63 @@
+.popUpContainer {
+  font-family: "Helvetica Neue";
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addPostContainer {
+  display: inline-block;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+
+
+  svg{
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.addPostContainer:hover {
+  cursor: pointer;
+}
+
+.purpleFormBar{
+  height: 0.875rem;
+  width: 21.375rem;
+  border-radius: 3.75rem 3.75rem 0rem 0rem;
+  border-bottom: solid 1px #000;
+  background: #802A76;
+  margin-bottom: 0px;
+}
+
+.addPostFormContainer {
+  width: 21.375rem;
+  // height: 15.25rem;
+  height: fit-content;
+  padding-bottom: 1rem;
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top: 3px #000;
+  p{
+    margin: 0px;
+  }
+
+  .postContent {
+    width: 13.4375rem;
+    min-height: 2.25rem;
+    border: solid 3px #E4E4E4;
+    background: #EDEDED;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: top;
+
+  }
+}
+
+
